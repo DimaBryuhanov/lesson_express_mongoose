@@ -27,3 +27,6 @@ app.use(cookieParser());
 app.listen(config.PORT, '0.0.0.0', () => {
     console.log(`The server is listening on port ${config.PORT}`);
 });
+
+//DONE: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website
+//NEXT: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose
