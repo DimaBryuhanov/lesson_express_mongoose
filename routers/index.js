@@ -2,8 +2,9 @@ import express from 'express';
 
 var router = express.Router();
 
-router.get('/', (req, res, next) => {
-    res.send("Hi, there");
-});
+/* GET home page. */
+router.get('/', function(req, res, next) {
+    res.render('index', { title: 'Express with MongoDB' });
+  });
 
 export default router;
